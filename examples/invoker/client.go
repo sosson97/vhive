@@ -120,10 +120,15 @@ func invokeFunction(url string) {
 
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 	defer cancel()
-
+	st := time.Now()
 	_, err = c.SayHello(ctx, &pb.HelloRequest{Name: "faas"})
+	elapsed := time.Now().Sub(st).Milliseconds()
 	if err != nil {
 		log.Warnf("Failed to invoke %v, err=%v", address, err)
+	} else {
+		log.Infof("")
+		log.Infof(url)
+		log.Infof("calling RPC %v msec", elapsed)
 	}
 
 	atomic.AddInt64(&completed, 1)
@@ -142,8 +147,8 @@ func startMeasurement(msg string) (string, time.Time) {
 }
 
 func getDuration(msg string, start time.Time) {
-	latency := time.Since(start).Microseconds()
-	log.Debugf("Invoked %v in %v usec\n", msg, latency)
+	latency := time.Since(start).Milliseconds()
+	log.Infof("Invoked %v in %v msec\n", msg, latency)
 
 	latSlice.Lock()
 	latSlice.slice = append(latSlice.slice, latency)
