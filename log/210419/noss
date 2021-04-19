@@ -1,0 +1,81 @@
+INFO[0000] Reading the URLs from the file: urls.txt
+INFO[0013]
+INFO[0013] helloworld-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 12314 msec
+INFO[0013] Invoked helloworld-0.default.192.168.1.240.xip.io in 12491 msec
+INFO[0013]
+INFO[0013] pyaes-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 11267 msec
+INFO[0013] Invoked pyaes-0.default.192.168.1.240.xip.io in 11491 msec
+INFO[0013]
+INFO[0013] helloworld-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 8317 msec
+INFO[0013]
+INFO[0013] Invoked helloworld-0.default.192.168.1.240.xip.io in 8493 msec
+INFO[0013] helloworld-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 314 msec
+INFO[0013] Invoked helloworld-0.default.192.168.1.240.xip.io in 493 msec
+INFO[0013]
+INFO[0013] helloworld-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 4321 msec
+INFO[0013] Invoked helloworld-0.default.192.168.1.240.xip.io in 4493 msec
+INFO[0013]
+INFO[0013] pyaes-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 7330 msec
+INFO[0013] Invoked pyaes-0.default.192.168.1.240.xip.io in 7498 msec
+INFO[0013]
+INFO[0013] pyaes-0.default.192.168.1.240.xip.io
+INFO[0013] calling RPC 3445 msec
+INFO[0013] Invoked pyaes-0.default.192.168.1.240.xip.io in 3498 msec
+INFO[0014]
+INFO[0014] pyaes-0.default.192.168.1.240.xip.io
+INFO[0014] calling RPC 3 msec
+INFO[0014] Invoked pyaes-0.default.192.168.1.240.xip.io in 173 msec
+INFO[0014]
+INFO[0014] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0014] calling RPC 7169 msec
+INFO[0014] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 7344 msec
+INFO[0014]
+INFO[0014] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0014] calling RPC 3333 msec
+INFO[0014] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 3371 msec
+INFO[0014]
+INFO[0014] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0014] calling RPC 11223 msec
+INFO[0014] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 11395 msec
+INFO[0015]
+INFO[0015] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0015] calling RPC 28 msec
+INFO[0015] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 68 msec
+INFO[0017]
+INFO[0017] helloworld-0.default.192.168.1.240.xip.io
+INFO[0017] calling RPC 3 msec
+INFO[0017] Invoked helloworld-0.default.192.168.1.240.xip.io in 39 msec
+INFO[0018]
+INFO[0018] pyaes-0.default.192.168.1.240.xip.io
+INFO[0018] calling RPC 3 msec
+INFO[0018] Invoked pyaes-0.default.192.168.1.240.xip.io in 172 msec
+INFO[0018]
+INFO[0018] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0018] calling RPC 2330 msec
+INFO[0018] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 2373 msec
+INFO[0018]
+INFO[0018] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0018] calling RPC 6406 msec
+INFO[0018] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 6444 msec
+INFO[0018]
+INFO[0018] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0018] calling RPC 10347 msec
+INFO[0018] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 10515 msec
+INFO[0018]
+INFO[0018] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0018] calling RPC 14383 msec
+INFO[0018] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 14587 msec
+INFO[0019]
+INFO[0019] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0019] calling RPC 27 msec
+INFO[0019] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 68 msec
+INFO[0020] Issued / completed requests : 19, 19
+INFO[0020] Real / target RPS : 0.95 / 1
+INFO[0020] Benchmark finished!
+INFO[0020] The measured latencies are saved in rps0.95_lat.csv.
