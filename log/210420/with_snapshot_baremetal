@@ -1,0 +1,100 @@
+INFO[0000] Reading the URLs from the file: urls.txt
+INFO[0003]
+INFO[0003] helloworld-0.default.192.168.1.240.xip.io
+INFO[0003] from grpc connection 2086 msec
+INFO[0003] calling sayHello 2049 msec
+INFO[0003] Invoked helloworld-0.default.192.168.1.240.xip.io in 2086 msec
+INFO[0005]
+INFO[0005] helloworld-0.default.192.168.1.240.xip.io
+INFO[0005] from grpc connection 207 msec
+INFO[0005] calling sayHello 4 msec
+INFO[0005] Invoked helloworld-0.default.192.168.1.240.xip.io in 207 msec
+INFO[0006]
+INFO[0006] pyaes-0.default.192.168.1.240.xip.io
+INFO[0006] from grpc connection 4421 msec
+INFO[0006] calling sayHello 4365 msec
+INFO[0006] Invoked pyaes-0.default.192.168.1.240.xip.io in 4421 msec
+INFO[0006]
+INFO[0006] pyaes-0.default.192.168.1.240.xip.io
+INFO[0006] from grpc connection 431 msec
+INFO[0006] calling sayHello 224 msec
+INFO[0006] Invoked pyaes-0.default.192.168.1.240.xip.io in 431 msec
+INFO[0009]
+INFO[0009] helloworld-0.default.192.168.1.240.xip.io
+INFO[0009] from grpc connection 48 msec
+INFO[0009] calling sayHello 4 msec
+INFO[0009] Invoked helloworld-0.default.192.168.1.240.xip.io in 48 msec
+INFO[0009]
+INFO[0009] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0009] from grpc connection 6558 msec
+INFO[0009] calling sayHello 6337 msec
+INFO[0009] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 6558 msec
+INFO[0009]
+INFO[0009] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0009] from grpc connection 2581 msec
+INFO[0009] calling sayHello 2400 msec
+INFO[0009] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 2581 msec
+INFO[0009]
+INFO[0009] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0009] from grpc connection 1699 msec
+INFO[0009] calling sayHello 1505 msec
+INFO[0009] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 1699 msec
+INFO[0009]
+INFO[0009] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0009] from grpc connection 5760 msec
+INFO[0009] calling sayHello 5585 msec
+INFO[0009] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 5760 msec
+INFO[0010]
+INFO[0010] pyaes-0.default.192.168.1.240.xip.io
+INFO[0010] from grpc connection 54 msec
+INFO[0010] calling sayHello 5 msec
+INFO[0010] Invoked pyaes-0.default.192.168.1.240.xip.io in 54 msec
+INFO[0011]
+INFO[0011] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0011] from grpc connection 84 msec
+INFO[0011] calling sayHello 44 msec
+INFO[0011] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 84 msec
+INFO[0012]
+INFO[0012] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0012] from grpc connection 110 msec
+INFO[0012] calling sayHello 69 msec
+INFO[0012] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 110 msec
+INFO[0013]
+INFO[0013] helloworld-0.default.192.168.1.240.xip.io
+INFO[0013] from grpc connection 45 msec
+INFO[0013] calling sayHello 4 msec
+INFO[0013] Invoked helloworld-0.default.192.168.1.240.xip.io in 45 msec
+INFO[0014]
+INFO[0014] pyaes-0.default.192.168.1.240.xip.io
+INFO[0014] from grpc connection 187 msec
+INFO[0014] calling sayHello 5 msec
+INFO[0014] Invoked pyaes-0.default.192.168.1.240.xip.io in 187 msec
+INFO[0015]
+INFO[0015] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0015] from grpc connection 210 msec
+INFO[0015] calling sayHello 31 msec
+INFO[0015] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 210 msec
+INFO[0016]
+INFO[0016] cnn-serving-0.default.192.168.1.240.xip.io
+INFO[0016] from grpc connection 105 msec
+INFO[0016] calling sayHello 70 msec
+INFO[0016] Invoked cnn-serving-0.default.192.168.1.240.xip.io in 105 msec
+INFO[0017]
+INFO[0017] helloworld-0.default.192.168.1.240.xip.io
+INFO[0017] from grpc connection 190 msec
+INFO[0017] calling sayHello 4 msec
+INFO[0017] Invoked helloworld-0.default.192.168.1.240.xip.io in 190 msec
+INFO[0018]
+INFO[0018] pyaes-0.default.192.168.1.240.xip.io
+INFO[0018] from grpc connection 183 msec
+INFO[0018] calling sayHello 6 msec
+INFO[0018] Invoked pyaes-0.default.192.168.1.240.xip.io in 183 msec
+INFO[0019]
+INFO[0019] rnn-serving-0.default.192.168.1.240.xip.io
+INFO[0019] from grpc connection 76 msec
+INFO[0019] calling sayHello 34 msec
+INFO[0019] Invoked rnn-serving-0.default.192.168.1.240.xip.io in 77 msec
+INFO[0020] Issued / completed requests : 19, 19
+INFO[0020] Real / target RPS : 0.95 / 1
+INFO[0020] Benchmark finished!
+INFO[0020] The measured latencies are saved in rps0.95_lat.csv.

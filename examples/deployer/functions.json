@@ -5,7 +5,7 @@
             "file": "helloworld.yaml",
             "count": 1
         },
-        {
+	{
             "name": "pyaes",
             "file": "pyaes.yaml",
             "count": 1
@@ -14,10 +14,15 @@
             "name": "rnn-serving",
             "file": "rnn_serving.yaml",
             "count": 1
-        }, 
-	{
+        },
+        {
             "name": "cnn-serving",
             "file": "cnn_serving.yaml",
+            "count": 1
+        },
+        {
+             "name": "rnn-serving2",
+            "file": "rnn_serving2.yaml",
             "count": 1
         }
     ]

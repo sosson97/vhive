@@ -130,8 +130,6 @@ func deployFunction(funcName, filePath string) {
 		funcName,
 		"-f",
 		filePath,
-		"--concurrency-target",
-		"1",
 	)
 	stdoutStderr, err := cmd.CombinedOutput()
 	if err != nil {

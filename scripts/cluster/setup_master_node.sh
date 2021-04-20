@@ -62,7 +62,7 @@ fi
 kubectl create namespace registry
 REPO_VOL_SIZE=$REPO_VOL_SIZE envsubst < $ROOT/configs/registry/repository-volume.yaml | kubectl create --filename -
 kubectl create --filename $ROOT/configs/registry/docker-registry.yaml
-kubectl apply --filename $ROOT/configs/registry/repository-update-hosts.yaml 
+kubectl apply --filename $ROOT/configs/registry/repository-update-hosts.yaml
 
 # magic DNS
 kubectl apply --filename $ROOT/configs/knative_yamls/serving-default-domain.yaml
@@ -81,3 +81,7 @@ kubectl apply --filename https://github.com/knative/eventing/releases/download/$
 kubectl apply --filename https://github.com/knative/eventing/releases/download/$KNATIVE_VERSION/mt-channel-broker.yaml
 
 kubectl --namespace istio-system get service istio-ingressgateway
+
+kubectl apply --filename https://github.com/knative/net-istio/releases/download/v0.19.0/release.yaml
+
+

@@ -107,7 +107,7 @@ func runBenchmark(urls []string, runDuration, targetRPS int) (realRPS float64) {
 
 func invokeFunction(url string) {
 	defer getDuration(startMeasurement(url)) // measure entire invocation time
-
+        st_before_connection := time.Now()
 	address := fmt.Sprintf("%s:%d", url, 80)
 
 	conn, err := grpc.Dial(address, grpc.WithInsecure(), grpc.WithBlock())
@@ -120,15 +120,16 @@ func invokeFunction(url string) {
 
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 	defer cancel()
-	st := time.Now()
-	_, err = c.SayHello(ctx, &pb.HelloRequest{Name: "faas"})
-	elapsed := time.Now().Sub(st).Milliseconds()
+	st_before_invoke := time.Now()
+        runt, err := c.SayHello(ctx, &pb.HelloRequest{Name: "faas"})
 	if err != nil {
 		log.Warnf("Failed to invoke %v, err=%v", address, err)
 	} else {
 		log.Infof("")
 		log.Infof(url)
-		log.Infof("calling RPC %v msec", elapsed)
+                log.Infof("from grpc connection %v msec", time.Since(st_before_connection).Milliseconds())
+		log.Infof("calling sayHello %v msec", time.Since(st_before_invoke).Milliseconds())
+                log.Infof("functio runtime %v msec", runt)
 	}
 
 	atomic.AddInt64(&completed, 1)

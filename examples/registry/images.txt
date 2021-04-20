@@ -1,1 +1,1 @@
-vhiveease/helloworld:var_workload
+sosson97/rnn-serving:2.0
